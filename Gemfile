@@ -4,7 +4,7 @@ gem 'rails', '3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'therubyracer'
 gem 'mysql2'
 
 
@@ -40,5 +40,6 @@ gem 'jquery-rails'
 group :production do
   # gems specifically for Heroku go here
   gem "pg"
+  gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 
